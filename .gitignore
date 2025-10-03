@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Arduino/ESP32 build artifacts
+*.elf
+*.bin
+*.map
+*.hex
+build/
+cmake-build*/
+*.ino.*.d
+*.ino.*.o
+
+# Logs & data
+*.log
+data/*.tmp
+
+# CAD exports/backups
+cad/*.backup
+cad/*.tmp
